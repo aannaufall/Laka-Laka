@@ -1,0 +1,123 @@
+body{
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.nav {
+	width: 5000px;
+	max-width: 90%;
+	margin: 0 auto;
+*{
+	margin: 0;
+	padding: 0;
+}
+
+}
+
+/*header
+=====================*/
+
+header {
+	background: url(../img/bg2.jpg) no-repeat center;
+	padding: 50px 0 0 0px;
+	background-size: cover;
+	text-align: center;
+}
+
+header img {
+	border-radius:  100%;
+	margin: 80px 0 10px 0;
+	padding: 1px solid #f7f7f7;
+}
+
+
+/*tempat
+====================*/
+.tempat {
+	width: 100%;
+	max-height: 90%;
+	margin: 0 auto;
+
+}
+
+/*nav
+===================*/
+nav a {
+	margin: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #f2f2f2;
+}
+
+nav a:hover{
+	font-weight: bold;
+	border-bottom: 2px solid red;
+}
+
+
+/*about
+==================*/
+.badan{
+	padding: 80px 0;
+}
+
+.badan h3{
+	margin:  0;
+	font-size: 40px;
+	letter-spacing: -2px;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.badan hr{
+	width: 20%;
+	margin-bottom: 20px;
+	border-color: #ffe
+}
+#about {
+	background-color: #f2f2f2;
+}
+
+#gallery{
+	overflow: hidden;
+}
+
+#gallery.list a{
+	display: block;
+	width: 25%;
+	float: left;
+	padding: 0 5px;
+}
+#gallery.list a img{
+	<img class="kanan" src="guci.png"/>
+}
+#gallery.list a img{
+	opacity:  0.7;
+	padding:  5px;
+	background: #75c2fa;
+}
+
+#gallery.list a:hover img{
+	opacity: 1;
+}
+
+#contact.list a{
+	display: block;
+	width: 25%;
+	float: left;
+	padding: 0 5px;
+}
+
+#contact.list a img{
+	opacity: 0.7;
+	padding: 5px;
+
+}
